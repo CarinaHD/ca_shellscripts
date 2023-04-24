@@ -1,7 +1,7 @@
 #!bin/bash
 BIRTHDATE="1985-06-19"
 Presents= 4
-BIRTHDAY= date -d "$BIRTHDATE" +%A
+BIRTHDAY= 'date -d "$BIRTHDATE" +%A'
 
 if [ "$BIRTHDATE" == "1985-06-19" ] ; then
     echo "BIRTHDATE is correct, it is $BIRTHDATE"
